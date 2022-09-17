@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">crypto_bsc_widget</string>
+
+
+    <string name="title_activity_manual">ManualActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="select">Select Profile</string>
+    <string name="this_application_uses_contract_addresses_to_identify_a_cryptocurrency_on_a_specific_blockchain_to_find_a_contract_address_visit_the_respective_blockchain_explorer_and_search_for_the_token_name_the_contract_address_should_be_displayed_on_that_page_n_n">This application uses contract addresses to identify a cryptocurrency on a specific blockchain. To find a contract address, visit the respective blockchain explorer and search for the token name. The contract address should be displayed on that page.\n\n</string>
+    <string name="this_application_provides_a_simple_and_conveniant_way_to_access_the_price_of_many_cryptocurrencies_through_the_use_of_custom_parameterized_widgets_and_foreground_services_users_can_view_prices_for_nearly_any_project_they_are_interested_in_the_widgets_update_real_time_periodically_respective_to_each_given_project_that_is_being_tracked">This application provides a simple and conveniant way to access the price of many cryptocurrencies. Through the use of custom, parameterized widgets and foreground services, users can view prices for nearly any project they are interested in. The widgets update real time periodically respective to each given project that is being tracked.</string>
+    <string name="currently_only_supports_android_phones_tablets_n_n_widgets_may_not_always_update_if_power_saving_is_turned_off_to_turn_power_saving_off_settings_search_power_saving_set_to_off_n_n_projects_on_any_chain_is_supported_n_n_app_uses_the_project_s_largest_decentralized_exchange_to_pull_price_n_n_users_can_choose_to_show_percentage_change_adjust_refresh_rate_and_specify_decimal_count_in_the_settings_section_in_the_configurations_page_n_n_maximum_of_3_profiles_and_3_projects_in_the_stackview_are_allowed_n_n_entering_contract_addresses_is_optional_will_default_to_btc_bnb_eth_price_if_nothing_is_entered_n_n_this_application_also_supports_foreground_services_real_time_price_via_notifications_tab_users_can_add_a_project_through_the_notifications_bell_which_is_located_top_right_in_the_home_screen"><![CDATA[• Currently only supports Android Phones/Tablets \n\n • Widgets may not always update if power saving is turned off. (To turn Power Saving Off- Settings -> search \'Power saving\' -> set to Off) \n\n• Projects on any chain is supported. \n\n• App uses the project\'s largest Decentralized Exchange to pull price \n\n• Users can choose to show percentage change, adjust refresh rate, and specify decimal count in the settings section in the Configurations Page \n\n• Maximum of 3 Profiles and 3 projects in the StackView are allowed \n\n • Entering contract addresses is optional, will default to BTC/BNB/ETH price if nothing is entered \n\n • This application also supports foreground services (real time price via notifications tab). Users can add a project through the notifications bell, which is located top right in the home screen \n\n • If any issues/bugs arise, please force stop the app and try running it again. Further, if the issue persists, contact widgetdev1234@gmail.com and/or leave a Play Store review stating the problem ]]></string>
+    <string name="contract_addresses_can_also_be_found_on_websites_such_as_coinmarketcap_coingecko_etc">Contract Addresses can also be found on websites such as CoinMarketCap, Coingecko, etc.</string>
+
+</resources>

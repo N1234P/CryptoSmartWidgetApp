@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/foreground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForegroundActivity"
+    android:background="@drawable/home_background"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose One Project To Track In Notification
+Panel"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:padding="20dp"/>
+
+    <EditText
+        android:id="@+id/addressTrack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contract Address"
+        android:textSize="16dp"
+
+
+        android:textColorHint="#FFFFFF"
+        android:drawableLeft="@drawable/ic_baseline_menu_book_24"
+
+        android:paddingLeft="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:padding="5dp"
+        android:drawablePadding="10dp"
+        android:background="@drawable/config_liner"/>
+
+    <Button
+        android:id="@+id/startTrack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startService"
+        android:backgroundTint="@color/cardview_shadow_end_color"
+        android:text="Start Tracking"
+        android:elevation="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        app:strokeColor="#FFFFFF"
+        android:layout_gravity="center"
+        app:strokeWidth="2dp"/>
+
+    <Button
+        android:id="@+id/stopTrack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="stopService"
+        android:backgroundTint="@color/cardview_shadow_end_color"
+        android:text="Stop Tracking"
+        android:textSize="13sp"
+        android:elevation="10dp"
+
+        android:textColor="#FFFFFF"
+        app:strokeColor="#FFFFFF"
+        android:layout_gravity="center"
+        app:strokeWidth="2dp"/>
+
+</LinearLayout>

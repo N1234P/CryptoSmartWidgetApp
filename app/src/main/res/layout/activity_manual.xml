@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/manual"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManualActivity"
+    android:background="@drawable/home_background">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="20dp"
+            android:text="App Information"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+
+            android:paddingLeft="20dp"
+            android:text="Overview"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:justificationMode="inter_word"
+            android:layout_margin="10dp"
+            android:paddingStart="30dp"
+            android:paddingEnd="10dp"
+            android:text="@string/this_application_provides_a_simple_and_conveniant_way_to_access_the_price_of_many_cryptocurrencies_through_the_use_of_custom_parameterized_widgets_and_foreground_services_users_can_view_prices_for_nearly_any_project_they_are_interested_in_the_widgets_update_real_time_periodically_respective_to_each_given_project_that_is_being_tracked"
+            android:textColor="#FFFFFF"
+            android:textSize="10sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:paddingLeft="20dp"
+            android:text="Usage"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:layout_margin="10dp"
+            android:paddingStart="30dp"
+            android:paddingEnd="10dp"
+            android:text="To create a widget, it must first be configured. To begin the configuration, the user can hold onto the app icon and select 'Widgets' -> 'Add'. Alternatively, the user can hold down on the home screen and the 'Widgets' icon should appear. Selecting on that will show a list of widgets available on your device. Click the one for this application. Upon adding, the user will be taken to the configurations page. From here, the user can specify up to three contract addresses and save it as a profile if desired. The 'Save As Profile' Button will save the configurations to the respective profile shown in the dropdown menu, which may overwrite any existing ones for that profile. The user can also select a specific coin in the drop-down menu and configure settings.Finally, click 'Confirm' to load the widget(s)."
+            android:textSize="10dp"
+            android:textColor="#FFFFFF" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="Important Notes"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:layout_margin="10dp"
+            android:paddingStart="30dp"
+            android:paddingEnd="10dp"
+            android:text="@string/currently_only_supports_android_phones_tablets_n_n_widgets_may_not_always_update_if_power_saving_is_turned_off_to_turn_power_saving_off_settings_search_power_saving_set_to_off_n_n_projects_on_any_chain_is_supported_n_n_app_uses_the_project_s_largest_decentralized_exchange_to_pull_price_n_n_users_can_choose_to_show_percentage_change_adjust_refresh_rate_and_specify_decimal_count_in_the_settings_section_in_the_configurations_page_n_n_maximum_of_3_profiles_and_3_projects_in_the_stackview_are_allowed_n_n_entering_contract_addresses_is_optional_will_default_to_btc_bnb_eth_price_if_nothing_is_entered_n_n_this_application_also_supports_foreground_services_real_time_price_via_notifications_tab_users_can_add_a_project_through_the_notifications_bell_which_is_located_top_right_in_the_home_screen"
+            android:textSize="10dp"
+            android:textColor="#FFFFFF" />
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>

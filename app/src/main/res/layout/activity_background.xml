@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BackgroundActivity"
+    android:background="@drawable/morning_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Backgrounds"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:padding="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vice City"
+            android:textColor="#FFFFFF"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center" />
+        <ImageView
+            android:id="@+id/vicecity"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:background="@drawable/vice_city"
+            android:layout_gravity="center" />
+        <TextView
+
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="King Yna"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:textSize="18sp"/>
+        <ImageView
+            android:id="@+id/kingyna"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:background="@drawable/king_yna"
+            android:layout_gravity="center" />
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calm Darya"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:textSize="18sp"/>
+        <ImageView
+            android:id="@+id/calmdarya"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:background="@drawable/calm_darya"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Forever Lost"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:textSize="18sp"/>
+        <ImageView
+            android:id="@+id/foreverlost"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:background="@drawable/forever_lost"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deep Space"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:textSize="18sp"/>
+        <ImageView
+            android:id="@+id/deepspace"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:background="@drawable/deep_space"
+            android:layout_gravity="center" />
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Mobsl/AndroidStudioProjects/crypto_bsc_widget/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.137" />
+        <entry key="..\:/Users/Mobsl/AndroidStudioProjects/crypto_bsc_widget/app/src/main/res/drawable/calm_darya.xml" value="0.124" />
+        <entry key="..\:/Users/Mobsl/AndroidStudioProjects/crypto_bsc_widget/app/src/main/res/drawable/circle.xml" value="0.136" />
+        <entry key="..\:/Users/Mobsl/AndroidStudioProjects/crypto_bsc_widget/app/src/main/res/drawable/config_liner.xml" value="0.136" />
+        <entry key="..\:/Users/Mobsl/AndroidStudioProjects/crypto_bsc_widget/app/src/main/res/drawable/deep_space.xml" value="0.179" />
+        <entry key="..\:/Users/Mobsl/AndroidStudioProjects/crypto_bsc_widget/app/src/main/res/drawable/forever_lost.xml" value="0.178" />
+        <entry key="..\:/Users/Mobsl/AndroidStudioProjects/crypto_bsc_widget/app/src/main/res/drawable/home_background_x.xml" value="0.1" />
+        <entry key="..\:/Users/Mobsl/AndroidStudioProjects/crypto_bsc_widget/app/src/main/res/drawable/ic_baseline_hourglass_top_24.xml" value="0.1195" />
+        <entry key="..\:/Users/Mobsl/AndroidStudioProjects/crypto_bsc_widget/app/src/main/res/drawable/ic_baseline_menu_book_24.xml" value="0.137" />
+        <entry key="..\:/Users/Mobsl/AndroidStudioProjects/crypto_bsc_widget/app/src/main/res/drawable/ic_baseline_notifications_24.xml" value="0.1" />
+        <entry key="..\:/Users/Mobsl/AndroidStudioProjects/crypto_bsc_widget/app/src/main/res/drawable/ic_baseline_show_chart_24.xml" value="0.136" />
+        <entry key="..\:/Users/Mobsl/AndroidStudioProjects/crypto_bsc_widget/app/src/main/res/drawable/ic_baseline_widgets_24.xml" value="0.1" />
+        <entry key="..\:/Users/Mobsl/AndroidStudioProjects/crypto_bsc_widget/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1145" />
+        <entry key="..\:/Users/Mobsl/AndroidStudioProjects/crypto_bsc_widget/app/src/main/res/drawable/king_yna.xml" value="0.178" />
+        <entry key="..\:/Users/Mobsl/AndroidStudioProjects/crypto_bsc_widget/app/src/main/res/drawable/nighthawk.xml" value="0.179" />
+        <entry key="..\:/Users/Mobsl/AndroidStudioProjects/crypto_bsc_widget/app/src/main/res/drawable/select_contract_icon.xml" value="0.137" />
+        <entry key="..\:/Users/Mobsl/AndroidStudioProjects/crypto_bsc_widget/app/src/main/res/drawable/shape_fix.xml" value="0.1" />
+        <entry key="..\:/Users/Mobsl/AndroidStudioProjects/crypto_bsc_widget/app/src/main/res/drawable/vice_city.xml" value="0.179" />
+        <entry key="..\:/Users/Mobsl/AndroidStudioProjects/crypto_bsc_widget/app/src/main/res/layout/activity_app_widget_config.xml" value="0.16" />
+        <entry key="..\:/Users/Mobsl/AndroidStudioProjects/crypto_bsc_widget/app/src/main/res/layout/activity_background.xml" value="0.16963931827189854" />
+        <entry key="..\:/Users/Mobsl/AndroidStudioProjects/crypto_bsc_widget/app/src/main/res/layout/activity_foreground.xml" value="0.2" />
+        <entry key="..\:/Users/Mobsl/AndroidStudioProjects/crypto_bsc_widget/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Mobsl/AndroidStudioProjects/crypto_bsc_widget/app/src/main/res/layout/activity_manual.xml" value="0.152" />
+        <entry key="..\:/Users/Mobsl/AndroidStudioProjects/crypto_bsc_widget/app/src/main/res/layout/chain_popup.xml" value="0.18671875" />
+        <entry key="..\:/Users/Mobsl/AndroidStudioProjects/crypto_bsc_widget/app/src/main/res/layout/coin_spinner_view.xml" value="0.11201368106028217" />
+        <entry key="..\:/Users/Mobsl/AndroidStudioProjects/crypto_bsc_widget/app/src/main/res/layout/fragment_first.xml" value="0.1" />
+        <entry key="..\:/Users/Mobsl/AndroidStudioProjects/crypto_bsc_widget/app/src/main/res/layout/notification_view.xml" value="0.10474561778537837" />
+        <entry key="..\:/Users/Mobsl/AndroidStudioProjects/crypto_bsc_widget/app/src/main/res/layout/profile_spinner_initial.xml" value="0.1" />
+        <entry key="..\:/Users/Mobsl/AndroidStudioProjects/crypto_bsc_widget/app/src/main/res/layout/profile_spinner_view.xml" value="0.1" />
+        <entry key="..\:/Users/Mobsl/AndroidStudioProjects/crypto_bsc_widget/app/src/main/res/layout/spinner_items.xml" value="0.1" />
+        <entry key="..\:/Users/Mobsl/AndroidStudioProjects/crypto_bsc_widget/app/src/main/res/layout/widget.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/Mobsl/AndroidStudioProjects/crypto_bsc_widget/app/src/main/res/layout/widget_item.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/Mobsl/AndroidStudioProjects/crypto_bsc_widget/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.136" />
+        <entry key="..\:/Users/Mobsl/AndroidStudioProjects/crypto_bsc_widget/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/Users/Mobsl/AndroidStudioProjects/crypto_bsc_widget/app/src/main/res/xml/example_appwidget_info.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/Mobsl/AndroidStudioProjects/crypto_bsc_widget/app/src/main/res/xml/network_security_config.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/configuration"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        tools:context=".AppWidgetConfig"
+        android:background="@drawable/night_background">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Widget Configuration"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:padding="20dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Up to 3 Contract Addresses"
+                android:textSize="17sp"
+                android:padding="10dp"
+                android:layout_marginLeft="18dp"
+                android:textColor="#FFFFFF"/>
+            <ImageView
+                android:onClick="showContractPopup"
+                android:id="@+id/contract_address_information"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_baseline_info_24"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+        <EditText
+            android:id="@+id/edit_text_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contract Address"
+            android:textSize="16dp"
+            android:textColorHint="#FFFFFF"
+            android:drawableLeft="@drawable/ic_baseline_menu_book_24"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:padding="5dp"
+            android:drawablePadding="10dp"
+            android:background="@drawable/config_liner"
+        />
+
+        <EditText
+            android:id="@+id/edit_text_button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contract Address"
+            android:textSize="16dp"
+            android:layout_marginTop="25dp"
+            android:textColorHint="#FFFFFF"
+            android:drawableLeft="@drawable/ic_baseline_menu_book_24"
+
+
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:padding="5dp"
+            android:drawablePadding="10dp"
+            android:background="@drawable/config_liner"
+
+            />
+
+
+        <EditText
+            android:id="@+id/edit_text_button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contract Address"
+            android:textSize="16dp"
+            android:layout_marginTop="25dp"
+            android:textColorHint="#FFFFFF"
+            android:drawableLeft="@drawable/ic_baseline_menu_book_24"
+
+
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:padding="5dp"
+            android:drawablePadding="10dp"
+            android:background="@drawable/config_liner"
+
+            />
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="save"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/cardview_shadow_end_color"
+                android:text="Save As Profile"
+                app:strokeColor="#FFFFFF"
+                app:strokeWidth="2dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#FFFFFF"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/select"
+
+
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+                <AutoCompleteTextView
+                    android:id="@+id/auto_complete"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Load Profiles"
+
+                    android:textAlignment="center"
+                    android:inputType="none"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose An Existing Coin (Optional)"
+            android:textSize="17sp"
+            android:textColor="#FFFFFF"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"/>
+
+        <com.chivorn.smartmaterialspinner.SmartMaterialSpinner
+            android:layout_width="match_parent"
+
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:spinnerMode="dialog"
+            android:id="@+id/coinSpinner"
+            app:smsp_hint="Select Crypto"
+            app:smsp_searchTextColor="@color/white"
+            app:smsp_isSearchable="true"
+            app:smsp_arrowColor="@color/white"
+            app:smsp_searchBackgroundColor="@color/cardview_shadow_start_color"
+            app:smsp_itemListBackgroundColor="@color/cardview_shadow_start_color"
+            app:smsp_itemListHintBackgroundColor="@color/cardview_shadow_start_color"
+            app:smsp_searchHeaderBackgroundColor="@color/cardview_shadow_start_color"
+            app:smsp_hintColor="@color/white"
+            app:smsp_itemListColor="@color/white"
+            app:smsp_highlightColor="@color/white"
+            app:smsp_outlinedBoxColor="@color/white"
+            app:smsp_baseColor="@color/white"
+            app:smsp_underlineColor="@color/white"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:textSize="17sp"
+            android:textColor="#FFFFFF"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_show_chart_24"
+                android:layout_marginStart="50dp"
+                android:layout_gravity="center">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Show 24 Hour Percentage"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:padding="3dp"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center"/>
+
+            <Switch
+                android:id="@+id/percent_switch"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Decimal Count"
+            android:layout_marginTop="15dp"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            />
+
+        <TextView
+            android:id="@+id/decimal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            />
+
+        <SeekBar
+            android:id="@+id/decimalbar"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:max="10"
+            android:progress="5"
+            android:scaleY="1.5"
+            android:scaleX="1.5"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Refresh Rate (seconds)"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            />
+
+        <TextView
+            android:id="@+id/refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="150s"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            />
+
+        <SeekBar
+            android:id="@+id/refreshbar"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:max="10"
+            android:min="1"
+            android:progress="5"
+            android:scaleY="1.5"
+            android:scaleX="1.5"
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="confirmConfiguration"
+            android:backgroundTint="@color/cardview_shadow_end_color"
+            android:text="Confirm"
+            android:elevation="10dp"
+            android:layout_marginTop="25dp"
+            android:textColor="#FFFFFF"
+            app:strokeColor="#FFFFFF"
+            app:strokeWidth="2dp"/>
+        </LinearLayout>
+    </ScrollView>
