@@ -79,7 +79,7 @@ public class ForegroundService extends Service {
                 int rep = 0;
                 List<String> contracts = new ArrayList<String>();
                 contracts.add(input);
-                Logic logic = new Logic(contracts, "", false, "8");
+                Logic logic = new Logic(contracts, "bitcoin", false, "8");
                 List<String> data;
                 while(status) {
                     try {

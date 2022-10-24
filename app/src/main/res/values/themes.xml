@@ -12,6 +12,10 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
+        <item name="android:ambientShadowAlpha">.018</item>
+        <item name="android:spotShadowAlpha">0.18</item>
+
     </style>
     <style name="Theme.Crypto_bsc_widget.NoActionBar">
         <item name="windowActionBar">false</item>
@@ -20,4 +24,6 @@
     <style name="Theme.Crypto_bsc_widget.AppBarOverlay"
         parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
     <style name="Theme.Crypto_bsc_widget.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
 </resources>

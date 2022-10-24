@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".BackgroundActivity"
-    android:background="@drawable/morning_background">
+    android:background="@drawable/dark_background">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,7 +16,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Backgrounds"
+            android:text="Widget Backgrounds"
             android:textSize="20sp"
             android:textColor="#FFFFFF"
             android:padding="30dp"/>

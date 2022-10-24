@@ -7,10 +7,10 @@ android {
 
     defaultConfig {
         multiDexEnabled true
-        applicationId "com.example.CryptoSmartWidget"
+        applicationId "com.crypto.CryptoSmartWidget"
         minSdk 28
         targetSdk 32
-        versionCode 1
+        versionCode 4
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -18,7 +18,7 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }

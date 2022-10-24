@@ -14,7 +14,7 @@
         android:orientation="vertical"
         android:gravity="center_horizontal"
         tools:context=".AppWidgetConfig"
-        android:background="@drawable/night_background">
+        android:background="@drawable/dark_background">
 
         <TextView
             android:layout_width="match_parent"
@@ -44,6 +44,8 @@
                 android:src="@drawable/ic_baseline_info_24"
                 android:layout_gravity="center"/>
         </LinearLayout>
+
+
         <EditText
             android:id="@+id/edit_text_button"
             android:layout_width="match_parent"
@@ -52,6 +54,7 @@
             android:textSize="16dp"
             android:textColorHint="#FFFFFF"
             android:drawableLeft="@drawable/ic_baseline_menu_book_24"
+
             android:layout_marginRight="30dp"
             android:layout_marginLeft="30dp"
             android:padding="5dp"
@@ -68,6 +71,8 @@
             android:layout_marginTop="25dp"
             android:textColorHint="#FFFFFF"
             android:drawableLeft="@drawable/ic_baseline_menu_book_24"
+
+
 
 
             android:layout_marginRight="30dp"
@@ -88,6 +93,7 @@
             android:layout_marginTop="25dp"
             android:textColorHint="#FFFFFF"
             android:drawableLeft="@drawable/ic_baseline_menu_book_24"
+
 
 
             android:layout_marginRight="30dp"
@@ -119,17 +125,17 @@
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/select"
 
 
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu">
                 <AutoCompleteTextView
                     android:id="@+id/auto_complete"
                     android:layout_gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:text="Load Profiles"
-
+                    android:background="@drawable/profile_border"
                     android:textAlignment="center"
                     android:inputType="none"/>
             </com.google.android.material.textfield.TextInputLayout>
@@ -142,8 +148,8 @@
             android:text="Choose An Existing Coin (Optional)"
             android:textSize="17sp"
             android:textColor="#FFFFFF"
-            android:padding="10dp"
-            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:layout_marginTop="25dp"
             android:layout_marginLeft="20dp"/>
 
         <com.chivorn.smartmaterialspinner.SmartMaterialSpinner
@@ -179,8 +185,8 @@
             android:text="Settings"
             android:textSize="17sp"
             android:textColor="#FFFFFF"
-            android:padding="10dp"
-            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:layout_marginTop="25dp"
             android:layout_marginLeft="20dp"/>
 
         <LinearLayout
@@ -283,6 +289,7 @@
             android:onClick="confirmConfiguration"
             android:backgroundTint="@color/cardview_shadow_end_color"
             android:text="Confirm"
+            android:padding="5dp"
             android:elevation="10dp"
             android:layout_marginTop="25dp"
             android:textColor="#FFFFFF"

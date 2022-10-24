@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ForegroundActivity"
-    android:background="@drawable/home_background"
+    android:background="@drawable/dark_background"
     android:orientation="vertical">
     <TextView
         android:layout_width="match_parent"
@@ -19,24 +19,38 @@ Panel"
         android:textStyle="bold"
         android:padding="20dp"/>
 
-    <EditText
-        android:id="@+id/addressTrack"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Contract Address"
-        android:textSize="16dp"
+        android:orientation="horizontal">
 
+        <EditText
+            android:id="@+id/addressTrack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/config_liner"
+            android:drawableLeft="@drawable/ic_baseline_menu_book_24"
 
-        android:textColorHint="#FFFFFF"
-        android:drawableLeft="@drawable/ic_baseline_menu_book_24"
+            android:drawablePadding="10dp"
+            android:hint="Contract Address"
+            android:padding="5dp"
+            android:paddingLeft="10dp"
+            android:textColorHint="#FFFFFF"
+            android:textSize="16dp"
+            tools:ignore="TouchTargetSizeCheck" />
 
-        android:paddingLeft="10dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginLeft="30dp"
-        android:padding="5dp"
-        android:drawablePadding="10dp"
-        android:background="@drawable/config_liner"/>
+       <ImageView
+           android:id="@+id/refresh"
+           android:layout_width="25dp"
+           android:layout_height="25dp"
+           android:src="@drawable/ic_baseline_refresh_24"
+           android:padding="2dp"
+           android:layout_marginStart="-65dp"
+           android:layout_gravity="center"/>
 
+    </LinearLayout>
     <Button
         android:id="@+id/startTrack"
         android:layout_width="wrap_content"

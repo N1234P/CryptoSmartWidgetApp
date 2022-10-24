@@ -11,10 +11,13 @@ import android.appwidget.AppWidgetManager;
 import android.content.SharedPreferences;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
+import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
 
 import android.text.method.LinkMovementMethod;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
@@ -44,6 +47,7 @@ public class AppWidgetConfig extends AppCompatActivity  {
 
     private int appWidgetId = AppWidgetManager.INVALID_APPWIDGET_ID;
     private EditText editTextButton, editTextButton2, editTextButton3;
+    private Drawable plusIcon;
 
 
     private static final String FILE_NAME = "profile1.txt";
@@ -71,6 +75,9 @@ public class AppWidgetConfig extends AppCompatActivity  {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_app_widget_config);
@@ -108,6 +115,9 @@ public class AppWidgetConfig extends AppCompatActivity  {
         editTextButton = findViewById(R.id.edit_text_button);
         editTextButton2 = findViewById(R.id.edit_text_button2);
         editTextButton3 = findViewById(R.id.edit_text_button3);
+
+
+
 
         autoCompleteTxt = findViewById(R.id.auto_complete);
         String[] profiles = {"Profile 1", "Profile 2", "Profile 3"};
