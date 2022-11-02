@@ -31,7 +31,7 @@ be displayed in the form of a stack view (swip to view next) for viewing multipl
 **Widget View**
 
 
-![github_widgets](https://user-images.githubusercontent.com/84159240/199379462-43ccf0d9-c763-4d1d-bad0-6d80023f111b.jpg)
+![github_widgets (1)](https://user-images.githubusercontent.com/84159240/199380420-8ba9fa3f-c31f-40a7-a484-c438b3f3cc68.jpg)
 
 
 
