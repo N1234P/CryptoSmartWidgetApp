@@ -8,7 +8,7 @@
     android:layout_width="215dp"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal"
-    android:background="@drawable/vice_city"
+    android:background="@drawable/deep_space"
     android:layout_gravity="center_horizontal"
     android:gravity="center_vertical|center_horizontal">
 

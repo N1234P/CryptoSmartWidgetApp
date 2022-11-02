@@ -4,12 +4,10 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
-
-
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
 
     <application
         android:name=".App"
@@ -41,7 +39,6 @@
             </intent-filter>
         </activity>
 
-
         <receiver
             android:name=".WidgetProvider"
             android:exported="true">
@@ -56,7 +53,7 @@
 
         <activity
             android:name=".AppWidgetConfig"
-            android:exported="true">
+            android:exported="false">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
             </intent-filter>
@@ -69,7 +66,7 @@
         <service
             android:name=".WidgetService"
             android:permission="android.permission.BIND_REMOTEVIEWS" />
-        <service android:name=".ForegroundService"/>
+        <service android:name=".ForegroundService" />
     </application>
 
 </manifest>

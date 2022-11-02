@@ -26,6 +26,8 @@
         android:orientation="horizontal"
         android:layoutDirection="rtl">
     <ImageView
+        android:layout_marginTop="3dp"
+        android:layout_marginStart="10dp"
         android:id="@+id/notification"
         android:layout_width="40sp"
         android:layout_height="50sp"
@@ -35,12 +37,16 @@
       />
 
     <ImageView
+        android:layout_marginTop="3dp"
+        android:layout_marginStart="-.5dp"
         android:id="@+id/theme"
         android:layout_width="40sp"
         android:layout_height="50sp"
 
         android:padding="7dp"
         android:src="@drawable/ic_baseline_brightness_4_24"/>
+
+
     </LinearLayout>
 
 
@@ -81,17 +87,22 @@
                 android:gravity="center"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:layout_width="50dp"
+                <TextView
+                    android:layout_width="wrap_content"
                     android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="2.0"
+                    android:textColor="@color/white"
+                    android:textSize="50dp"
                     android:src="@drawable/blockchain_background"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Smart Chain"
+                    android:text="Version"
                     android:textAlignment="center"
-                    android:textSize="14sp"
+                    android:textSize="13sp"
                     android:textColor="#FFFFFF"/>
 
             </LinearLayout>
@@ -121,14 +132,15 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/data_background"/>
+                    android:src="@drawable/ic_baseline_android_24"/>
 
                 <TextView
+                    android:layout_marginTop="8dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Real Time Data"
+                    android:text="Android Devices"
                     android:textAlignment="center"
-                    android:textSize="14sp"
+                    android:textSize="13sp"
 
                     android:textColor="#FFFFFF"/>
 
@@ -136,7 +148,10 @@
 
         </androidx.cardview.widget.CardView>
 
+
+
         <androidx.cardview.widget.CardView
+            android:id="@+id/background_id"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
@@ -158,22 +173,25 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="60dp"
+                    android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/param_background"/>
+                    android:src="@drawable/customize_bg"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Parameter Based"
-                    android:textSize="14sp"
-                    android:textColor="#FFFFFF"/>
+                    android:text="Set Background"
+                    android:textColor="#FFFFFF"
+                    android:textAlignment="center"
+                    android:textSize="13sp" />
 
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:tag="https://github.com/N1234P/CryptoSmartWidgetApp"
+            android:onClick="openWebPage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
@@ -195,26 +213,25 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="80dp"
+                    android:layout_width="60dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/multi_background"/>
+                    android:src="@drawable/github"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Multi-Widgeted"
-                    android:textColor="#FFFFFF"
-                    android:textAlignment="center"
-                    android:textSize="14sp" />
+                    android:text="Contribute"
+                    android:textSize="13sp"
+                    android:textColor="#FFFFFF"/>
 
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
-
-
         <androidx.cardview.widget.CardView
-            android:id="@+id/background_id"
+
+            android:onClick="openWebPage"
+            android:tag="https://play.google.com/store/apps/details?id=com.crypto.CryptoSmartWidget"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
@@ -237,16 +254,16 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="70dp"
+                    android:layout_width="50dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/customize_bg"/>
+                    android:src="@drawable/playstore"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Set Background"
+                    android:text="View on Playstore"
                     android:textAlignment="center"
-                    android:textSize="14sp"
+                    android:textSize="13sp"
 
                     android:textColor="#FFFFFF"/>
 
@@ -285,7 +302,7 @@
                     android:layout_height="wrap_content"
                     android:text="More Information"
                     android:textAlignment="center"
-                    android:textSize="14sp"
+                    android:textSize="13sp"
 
                     android:textColor="#FFFFFF"/>
 

@@ -49,7 +49,6 @@ public class WidgetProvider extends AppWidgetProvider {
 
 
 
-
             appWidgetManager.updateAppWidget(appWidgetId,views);
 
 

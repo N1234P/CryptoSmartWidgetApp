@@ -65,6 +65,47 @@ public class BackgroundActivity extends AppCompatActivity {
                 saveBackground("space");
             }
         });
+
+        setIcons();
+    }
+
+    public void setIcons() {
+        ImageView icon1 = findViewById(R.id.c1);
+        ImageView icon2 = findViewById(R.id.c2);
+        ImageView icon3 = findViewById(R.id.c3);
+        ImageView icon4 = findViewById(R.id.c4);
+        ImageView icon5 = findViewById(R.id.c5);
+
+        icon1.setVisibility(View.GONE);
+        icon2.setVisibility(View.GONE);
+        icon3.setVisibility(View.GONE);
+        icon4.setVisibility(View.GONE);
+        icon5.setVisibility(View.GONE);
+
+        SharedPreferences sharedPref = getSharedPreferences("background", 0);
+        String s = sharedPref.getString("background", "");
+
+        switch(s) {
+            case "king":
+                icon2.setVisibility(View.VISIBLE);
+                break;
+
+            case "darya":
+                icon3.setVisibility(View.VISIBLE);
+                break;
+
+            case "lost":
+                icon4.setVisibility(View.VISIBLE);
+                break;
+            case "vice":
+                icon1.setVisibility(View.VISIBLE);
+                break;
+
+            default:
+                icon5.setVisibility(View.VISIBLE);
+                break;
+
+        }
     }
 
     public void saveBackground(String s) {
@@ -72,6 +113,7 @@ public class BackgroundActivity extends AppCompatActivity {
         SharedPreferences.Editor editor = sharedPref.edit();
         editor.putString("background", s);
         editor.apply();
+        setIcons();
 
         Toast.makeText(this, "Saving Background...", Toast.LENGTH_SHORT).show();
 

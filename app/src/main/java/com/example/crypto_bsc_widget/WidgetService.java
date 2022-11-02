@@ -182,12 +182,12 @@ public class WidgetService extends RemoteViewsService {
                 case "lost":
                     views.setInt(R.id.widget_item_background, "setBackgroundResource", R.drawable.forever_lost);
                     break;
-                case "space":
-                    views.setInt(R.id.widget_item_background, "setBackgroundResource", R.drawable.deep_space);
+                case "vice":
+                    views.setInt(R.id.widget_item_background, "setBackgroundResource", R.drawable.vice_city);
                     break;
 
                 default:
-                    views.setInt(R.id.widget_item_background, "setBackgroundResource", R.drawable.vice_city);
+                    views.setInt(R.id.widget_item_background, "setBackgroundResource", R.drawable.deep_space);
                     break;
             }
 

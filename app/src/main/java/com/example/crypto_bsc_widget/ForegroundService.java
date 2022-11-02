@@ -9,6 +9,7 @@ import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
 
+import android.content.SharedPreferences;
 import android.os.IBinder;
 import android.os.SystemClock;
 
@@ -26,7 +27,9 @@ public class ForegroundService extends Service {
 
     private final ExecutorService executor = Executors.newSingleThreadExecutor();
 
-    public static boolean status = false;
+    private boolean status = true;
+
+
 
     @Nullable
     @Override
@@ -36,11 +39,7 @@ public class ForegroundService extends Service {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        if(status) {
-            return START_REDELIVER_INTENT;
-        }
 
-        status = true;
 
         String contractAddress = intent.getStringExtra("inputExtra");
         startForeground(1, getMyActivityNotification("LOADING..."));
@@ -82,6 +81,7 @@ public class ForegroundService extends Service {
                 Logic logic = new Logic(contracts, "bitcoin", false, "8");
                 List<String> data;
                 while(status) {
+                    System.out.println(contracts + "HERE????");
                     try {
                         if(rep == 0) {
                             logic.beginDataRetrieval();
@@ -109,7 +109,10 @@ public class ForegroundService extends Service {
                         return;
 
                     }
+
+
                 }
+                onDestroy();
             }
         });
     }

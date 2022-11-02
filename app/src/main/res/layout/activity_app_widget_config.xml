@@ -32,6 +32,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Enter Up to 3 Contract Addresses"
+                android:textStyle="bold"
                 android:textSize="17sp"
                 android:padding="10dp"
                 android:layout_marginLeft="18dp"
@@ -146,6 +147,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Choose An Existing Coin (Optional)"
+            android:textStyle="bold"
             android:textSize="17sp"
             android:textColor="#FFFFFF"
             android:padding="15dp"
@@ -182,6 +184,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textStyle="bold"
             android:text="Settings"
             android:textSize="17sp"
             android:textColor="#FFFFFF"

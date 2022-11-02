@@ -28,11 +28,12 @@ Panel"
             android:id="@+id/addressTrack"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
             android:background="@drawable/config_liner"
             android:drawableLeft="@drawable/ic_baseline_menu_book_24"
 
+            android:maxLines="4"
             android:drawablePadding="10dp"
             android:hint="Contract Address"
             android:padding="5dp"
@@ -47,7 +48,8 @@ Panel"
            android:layout_height="25dp"
            android:src="@drawable/ic_baseline_refresh_24"
            android:padding="2dp"
-           android:layout_marginStart="-65dp"
+           android:layout_marginStart="-35dp"
+
            android:layout_gravity="center"/>
 
     </LinearLayout>

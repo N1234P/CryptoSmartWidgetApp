@@ -5,9 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
 import static com.example.crypto_bsc_widget.ThemeModifier.theme;
+
+import android.content.ComponentName;
 import android.content.Intent;
 
 import android.content.SharedPreferences;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
@@ -20,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     CardView card, card2;
     ImageView notificationImage, themeImage;
-    boolean first = true;
+
 
 
 
@@ -46,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
         card = findViewById(R.id.manual_id);
         card2 = findViewById(R.id.background_id);
+
         notificationImage = findViewById(R.id.notification);
         themeImage = findViewById(R.id.theme);
 
@@ -64,6 +68,10 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
+
+
 
         notificationImage.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -98,7 +106,20 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+    }
 
+    public void openWebPage(View v) {
+        //Get url from tag
+        String url = (String) v.getTag();
+
+        Intent intent = new Intent();
+        intent.setAction(Intent.ACTION_VIEW);
+        intent.addCategory(Intent.CATEGORY_BROWSABLE);
+
+        //pass the url to intent data
+        intent.setData(Uri.parse(url));
+
+        startActivity(intent);
 
     }
 
@@ -109,5 +130,4 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
-}
+    }
