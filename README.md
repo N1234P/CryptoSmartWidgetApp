@@ -26,7 +26,16 @@ be displayed in the form of a stack view (swip to view next) for viewing multipl
 
 ![github_home_app](https://user-images.githubusercontent.com/84159240/199378362-7053f99c-5c78-49e2-8020-cbbb0cb78d33.png)
 
-Widget View
 
 
-Foreground View
+**Widget View**
+
+
+![github_widgets](https://user-images.githubusercontent.com/84159240/199379462-43ccf0d9-c763-4d1d-bad0-6d80023f111b.jpg)
+
+
+
+**Foreground View**
+
+
+![foreground_github](https://user-images.githubusercontent.com/84159240/199379806-4392ea0a-7002-4086-904a-7fbafea01eb4.jpg)
