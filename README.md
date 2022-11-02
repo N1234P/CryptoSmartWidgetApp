@@ -38,4 +38,4 @@ be displayed in the form of a stack view (swip to view next) for viewing multipl
 **Foreground View**
 
 
-![foreground_github (1)](https://user-images.githubusercontent.com/84159240/199380053-dc447551-d0ef-427f-bd0b-4182084f4bc4.jpg)
+![foreground_github (1) (1)](https://user-images.githubusercontent.com/84159240/199380215-35224fae-cf0e-4639-a1bf-93ea3b225aca.jpg)
