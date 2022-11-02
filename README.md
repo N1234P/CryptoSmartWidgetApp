@@ -22,6 +22,8 @@ Contribution - Clone this repository at https://github.com/N1234P/CryptoSmartWid
 
 
 Home View
+
+
 ![github_home_app](https://user-images.githubusercontent.com/84159240/199378362-7053f99c-5c78-49e2-8020-cbbb0cb78d33.png)
 
 Widget View
