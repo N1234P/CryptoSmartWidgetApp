@@ -5,13 +5,17 @@ be displayed in the form of a stack view (swip to view next) for viewing multipl
 24 hour percentage change, decimals, background color, etc. can be defined by the user. 
 
 
+
 Current Version - 2.0
 
 
-Usage - This application is available on the playstore at play.google.com/store/apps/details?id=com.crypto.CryptoSmartWidget
+
+Usage - This application is available on the playstore at play.google.com/store/apps/details?id=com.crypto.CryptoSmartWidget. There will also be beta testers before a subsequent update is rolled out, this will be distributed via APKs
+
 
 
 Support - Only available on android devices
+
 
 
 Contribution - Clone this repository at https://github.com/N1234P/CryptoSmartWidgetApp.git within your Android Studios environment
