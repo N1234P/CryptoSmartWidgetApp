@@ -61,11 +61,12 @@
         android:layout_margin="10dp"
         android:columnCount="2"
         android:rowCount="3"
+
         >
 
         <androidx.cardview.widget.CardView
             android:id="@+id/chain_card"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
 
             android:layout_gravity="fill"
@@ -89,12 +90,12 @@
 
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="80dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginTop="5dp"
                     android:text="2.0"
                     android:textColor="@color/white"
-                    android:textSize="50dp"
+                    android:textSize="50sp"
                     android:src="@drawable/blockchain_background"/>
 
                 <TextView
@@ -109,7 +110,7 @@
 
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
 
             android:layout_gravity="fill"
@@ -149,20 +150,19 @@
         </androidx.cardview.widget.CardView>
 
 
-
         <androidx.cardview.widget.CardView
             android:id="@+id/background_id"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
 
-            android:layout_gravity="fill"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
             android:layout_row="1"
+            android:layout_rowWeight="1"
             android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            app:cardBackgroundColor="@color/cardview_shadow_end_color"
             app:cardCornerRadius="12dp"
             app:cardElevation="6dp"
-            app:cardBackgroundColor="@color/cardview_shadow_end_color"
             app:cardUseCompatPadding="true">
 
             <LinearLayout
@@ -175,14 +175,14 @@
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/customize_bg"/>
+                    android:src="@drawable/customize_bg" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Set Background"
-                    android:textColor="#FFFFFF"
                     android:textAlignment="center"
+                    android:textColor="#FFFFFF"
                     android:textSize="13sp" />
 
             </LinearLayout>
@@ -192,7 +192,7 @@
         <androidx.cardview.widget.CardView
             android:tag="https://github.com/N1234P/CryptoSmartWidgetApp"
             android:onClick="openWebPage"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
 
             android:layout_gravity="fill"
@@ -232,7 +232,7 @@
 
             android:onClick="openWebPage"
             android:tag="https://play.google.com/store/apps/details?id=com.crypto.CryptoSmartWidget"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
 
             android:layout_gravity="fill"
@@ -272,7 +272,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/manual_id"
             android:layout_gravity="fill"
@@ -318,5 +318,6 @@
 
 
 </RelativeLayout>
+
 
 
